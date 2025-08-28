@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- MODIFIED TYPING EFFECT ---
     // It will now type "Full Stack Engineer" once and then stop.
     new Typed('.typing', {
-        strings: ['Full Stack Developer'],
+        strings: ['Full Stack Engineer'],
         typeSpeed: 100,
         loop: false
     });
