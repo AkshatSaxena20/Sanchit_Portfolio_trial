@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Typing effect
+    // --- MODIFIED TYPING EFFECT ---
+    // It will now type "Full Stack Engineer" once and then stop.
     new Typed('.typing', {
-        strings: ['Full Stack Engineer', 'Blockchain Developer', 'DevOps Enthusiast'],
+        strings: ['Full Stack Developer'],
         typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
+        loop: false
     });
 
-    // Particles.js configuration (CORRECTED)
+    // Particles.js configuration
     particlesJS('particles-js', {
         "particles": {
             "number": {
@@ -122,7 +122,6 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(e) {
         e.preventDefault();
 
-        // YOUR SCRIPT URL HAS BEEN ADDED
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyen8V8epbya2gIWMOXdLqshog-RSxvasvO8MujVb1-EuQSzqQK1tvoewBdV9ZwHNVF/exec';
         const formData = new FormData(form);
 
